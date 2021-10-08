@@ -731,7 +731,7 @@ div.products {
 
 			 }	
 		 });
-		 var URLforPOST = "https://abc-auth.herokuapp.com/applePayPayload";
+		 var URLforPOST = "https://abc-auth.emea.liveperson.tech/applePayPayload";
 		 xhr.open("POST", URLforPOST);
 		 xhr.setRequestHeader("Content-Type", "application/json");
 		 var myBodyToSend = JSON.stringify(myBody);
@@ -796,7 +796,7 @@ div.products {
 
 			}	
 		 });
-		 var URLforPOST = "https://abc-auth.herokuapp.com/isImage";
+		 var URLforPOST = "https://abc-auth.emea.liveperson.tech/isImage";
 		 xhr.open("POST", URLforPOST);
 		 xhr.setRequestHeader("Content-Type", "application/json");
 		 var myBodyToSend = JSON.stringify(myUrlToSend);
@@ -873,7 +873,7 @@ div.products {
 						 }
 					 }	
 				 });
-				 var URLforPOST = "https://abc-auth.herokuapp.com/addmanager";
+				 var URLforPOST = "https://abc-auth.emea.liveperson.tech/addmanager";
 				 xhr.open("POST", URLforPOST);
 				 xhr.setRequestHeader("Content-Type", "application/json");
 				 var myBodyToSend = JSON.stringify({"convid": convID});
@@ -949,7 +949,7 @@ div.products {
 			 }
 		 
 		 });
-		 var URLforPOST = "https://abc-auth.herokuapp.com/retrievedata";
+		 var URLforPOST = "https://abc-auth.emea.liveperson.tech/retrievedata";
 		 xhr.open("POST", URLforPOST);
 		 xhr.setRequestHeader("Content-Type", "application/json");
 		 var myBodyToSend = JSON.stringify({"convid": convID});
@@ -1060,7 +1060,7 @@ div.products {
 
 			 }	
 		 });
-		 var URLforPOST = "https://abc-auth.herokuapp.com/pushProduct";
+		 var URLforPOST = "https://abc-auth.emea.liveperson.tech/pushProduct";
 		 xhr.open("POST", URLforPOST);
 		 xhr.setRequestHeader("Content-Type", "application/json");
 		 var myBodyToSend = JSON.stringify(objectToPush);
@@ -1364,7 +1364,7 @@ div.products {
 		 
 		 });
 		 
-		 var URLforPOST = "https://abc-auth.herokuapp.com/deleteProduct";
+		 var URLforPOST = "https://abc-auth.emea.liveperson.tech/deleteProduct";
 		 xhr.open("POST", URLforPOST);
 		 xhr.setRequestHeader("Content-Type", "application/json");
 		 var myBodyToSend = JSON.stringify({"vertical": myVertical, "id": myIdtoSearch});
@@ -1431,7 +1431,7 @@ div.products {
 		 
 				 });
 				 
-				 var URLforPOST = "https://abc-auth.herokuapp.com/deleteProduct";
+				 var URLforPOST = "https://abc-auth.emea.liveperson.tech/deleteProduct";
 				 xhr.open("POST", URLforPOST);
 				 xhr.setRequestHeader("Content-Type", "application/json");
 				 var myBodyToSend = JSON.stringify({"vertical": myVertical, "id": myId});
@@ -1550,7 +1550,7 @@ div.products {
 				createObjects(ObjectToPush, vertical);
           		}	
         	});
-        	var URLforGET = "https://abc-auth.herokuapp.com/getProducts?vertical=" + vertical;
+        	var URLforGET = "https://abc-auth.emea.liveperson.tech/getProducts?vertical=" + vertical;
 		console.log(URLforGET);
 		xhr.open("GET", URLforGET);
         	xhr.send();
@@ -1584,7 +1584,7 @@ div.products {
 					}
 				}	
 			});
-			var URLforPOST = "https://abc-auth.herokuapp.com/isURL";
+			var URLforPOST = "https://abc-auth.emea.liveperson.tech/isURL";
 			xhr.open("POST", URLforPOST);
 			xhr.setRequestHeader("Content-Type", "application/json");
 			var myBodyToSend = JSON.stringify(myUrlToSend);
